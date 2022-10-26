@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Titulos;
+    src: url('../Fuentes/adrip1.ttf');
+    font-weight: bold;
+}
+
+/*----------------------BODY------------------------*/
+
+body {
+    background-image: url(https://duki.com.ar/wp-content/uploads/2022/03/DUKI_YST_1920x1080.jpg);
+    background-position: center;
+    background-size: cover;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+
+/* HEADER */
+
+a {
+    text-decoration: none;
+    color: rgb(255, 252, 80);
+}
+
+nav {
+    text-align: center;
+}
+.tituloPrincipal {
+    text-align: center;
+    color: rgb(207, 97, 97);
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    font-style: oblique;
+    font-family: Titulos;
+    font-size: 100px;
+}
+.tituloPrincipal:hover {
+    transform: rotate(360deg);
+    transition: 2.5s;
+}
+
+.tituloContacto {
+    text-align: center;
+    color: rgb(223, 57, 181);
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-bottom: 0px;
+    font-style: oblique;
+    font-family: Titulos;
+    font-size: 100px;
+}
+
+
+/*MAIN*/
+
+.subInicio {
+    text-align: center;
+    color: rgb(214, 71, 71);
+    margin-left: 75px;
+}
+.parrafoInicio {
+    color: bisque;
+}
+.parrafoContacto{
+    background-color: bisque;
+}
+.subtituloInicio2 {
+    color: antiquewhite;
+}
+.formulario {
+    color: antiquewhite;
+}
+.subtituloHistoria {
+    color: aquamarine;
+}
+.parrafoHistoria{
+    color: aqua;
+}
+.contenedorTour {
+    text-align: center;
+    text-transform: uppercase;
+    color: aqua;
+}
+.titulosDelTour {
+    color: blueviolet;
+}
+.dukiVideo {
+    margin-left: 350px;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    
+}
+.textoFooter {
+    color: yellow;
+}
+
+
+
+/* ------------------IMAGENES------------------- */
+.imgInicio {
+    margin-left: 20px;
+}
+
+img {
+    margin: 10px;
+}
+.imgContacto {
+    width: 1200px;
+    height: 700px;
+    margin-left: 20px;
+}
+.imgHistoria{
+    width: 300px;
+    height: 200px;
+}
+.imgHistoria1 {
+    width: 300px;
+    height: 300px;
+}
+.imgHistoria2 {
+    width: 230px;
+    height: 250px;
+}
